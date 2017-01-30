@@ -118,12 +118,10 @@ fruits[e]= document.getElementById(l).value;
 e--;}
 e=4;
 document.getElementById('p0').innerHTML =""
-
 for (;e>=0;){
  
   if (fruits[e] <= 0){ 
     g=g+Number(fruits[e]);}
-
 e--;}
  document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+g; 
 }
@@ -142,12 +140,10 @@ fruits[e]= document.getElementById(l).value;
 e--;}
 e=4;
 document.getElementById('p0').innerHTML =""
-
 for (;e>=0;){
  
   if (fruits[e] % 2 == 1){ 
     w++;}
-
 e--;}
  document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+w; 
 }
@@ -165,13 +161,11 @@ fruits[e]= document.getElementById(l).value;
 e--;}
 e=4;
 document.getElementById('p0').innerHTML =""
-
 for (;e>=0;){
  
   if (fruits[e] >0){
     g=g+Number(fruits[e]);
     w++;}
-
 e--;}
  document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+g/w; 
 }
