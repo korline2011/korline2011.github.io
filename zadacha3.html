@@ -75,7 +75,14 @@ a.button15:active {
   box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
 }
 </style>
-<br> <p0 id="p0">Мучения и боль</p0> 
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    
+ <br> <p0 id="p0">Мучения и боль</p0> 
  <script>
 function er5() {
 var i = 0;
@@ -91,7 +98,29 @@ document.getElementById('p0').innerHTML =sum;
 }
    
 </script>
-
+ <script>
+function er6() {
+  var g=0;
+var fruits = ["Яблоко", "Апельсин", "Слива", "банан", "груша"];
+var e=4;
+var taras;
+for (;e>=0;){
+l='i'+e;
+fruits[e]= document.getElementById(l).value;
+e--;}
+e=4;
+document.getElementById('p0').innerHTML =""
+ 
+for (;e>=0;){
+ 
+  if (fruits[e] <= 0){ 
+    g=g+Number(fruits[e]);}
+ 
+e--;}
+ document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+g; 
+}
+  
+</script>
  
 <br>
 <br>
@@ -112,6 +141,9 @@ document.getElementById('p0').innerHTML =sum;
 <br>
 <br>
 <a href="#on" class="button15" onclick="er5()" >Array</a>
+<a href="#on" class="button15" onclick="er6()" >Array2</a>
 <br>
-</body>
+
+  </body>
+
 </html>
