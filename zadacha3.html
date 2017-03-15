@@ -75,10 +75,17 @@ a.button15:active {
 }
 </style>
 
-  <br> <p0 id="p0">911</p0> 
-  <script>
-function er5()
-    var i = 0;
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    
+ <br> <p0 id="p0">Мучения и боль</p0> 
+ <script>
+function er5() {
+var i = 0;
 var sum =0;
 var n= document.getElementById('i0').value;
 document.getElementById('p0').innerHTML ="";
@@ -89,76 +96,36 @@ for (;i<=n;){
 }
 document.getElementById('p0').innerHTML =sum;
 }
+   
 </script>
  <script>
 function er6() {
   var g=0;
 var fruits = ["Яблоко", "Апельсин", "Слива", "банан", "груша"];
 var e=4;
-var vasya;
+var taras;
 for (;e>=0;){
 l='i'+e;
 fruits[e]= document.getElementById(l).value;
 e--;}
 e=4;
 document.getElementById('p0').innerHTML =""
+ 
 for (;e>=0;){
  
   if (fruits[e] <= 0){ 
     g=g+Number(fruits[e]);}
+ 
 e--;}
  document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+g; 
 }
   
 </script>
-<script>
-  function er7() {
-  var g=0;
-  var w=0;
-var fruits = ["Яблоко", "Апельсин", "Слива", "банан", "груша"];
-var e=4;
-var vasya;
-for (;e>=0;){
-l='i'+e;
-fruits[e]= document.getElementById(l).value;
-e--;}
-e=4;
-document.getElementById('p0').innerHTML =""
-for (;e>=0;){
  
-  if (fruits[e] % 2 == 1){ 
-    w++;}
-e--;}
- document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+w; 
-}
-</script>
-<script>
-  function er8 (){
-  var g=0;
-  var w=0;
-var fruits = ["Яблоко", "Апельсин", "Слива", "банан", "груша"];
-var e=4;
-var vasya;
-for (;e>=0;){
-l='i'+e;
-fruits[e]= document.getElementById(l).value;
-e--;}
-e=4;
-document.getElementById('p0').innerHTML =""
-for (;e>=0;){
- 
-  if (fruits[e] >0){
-    g=g+Number(fruits[e]);
-    w++;}
-e--;}
- document.getElementById('p0').innerHTML = document.getElementById('p0').innerHTML +" "+g/w; 
-}
-</script>
-
 <br>
 <br>
-
-
+ 
+ 
 <br>
 <input value="" id="i0" type="text">
 <br> 
@@ -169,14 +136,12 @@ e--;}
 <input value="" id="i3" type="text">
 <br>
 <input value="" id="i4" type="text">
-
-
+ 
+ 
 <br>
 <br>
 <a href="#on" class="button15" onclick="er5()" >Array</a>
 <a href="#on" class="button15" onclick="er6()" >Array2</a>
-<a href="#on" class="button15" onclick="er7()" >Array3</a>
-<a href="#on" class="button15" onclick="er8()" >Array4</a>
 <br>
 
 
