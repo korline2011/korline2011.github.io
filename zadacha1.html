@@ -44,6 +44,7 @@
 
 </div>
 
+    
 <br>
   <style>
 a.button15 {
@@ -77,19 +78,18 @@ a.button15:active {
 
   <br> <p0 id="p0">911</p0> 
  <script>
-function er4() {
-document.getElementById('p0').innerHTML =""
-var n;
-var a = "y";
-b = "x";
-n = document.getElementById('i0').value;
+ function er4 () {
+ var a = 'x';
+ b = 'y';
+ n = document.getElementById('i0').value;
 for (var i = 3; i <= n; i++) {
 var c = a + b;
 a = b;
 b = c;
-  }
-  document.getElementById('p0').innerHTML = b
+}
+  document.getElementById('p0').innerHTML = b;
  }
+
 
 
 </script>
@@ -103,18 +103,12 @@ b = c;
 <br>
 <input value="" id="i0" type="text">
 <br> 
-<input value="" id="i1" type="text">
-<br>
-<input value="" id="i2" type="text">
-<br>
-<input value="" id="i3" type="text">
-<br>
-<input value="" id="i4" type="text">
+
 
 
 <br>
 <br>
-<a href="#on" class="button15" onclick="er4()" >Array</a>
+<a href="#on" class="button15" onclick="er4()" >завдання фібоначчі</a>
 
 <br>
 
