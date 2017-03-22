@@ -45,8 +45,7 @@
 </div>
 
     
-<br>
-  <style>
+ <style>
 a.button15 {
   display: inline-block;
   font-family: arial,sans-serif;
@@ -75,42 +74,91 @@ a.button15:active {
   box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
 }
 </style>
-
-  <br> <p0 id="p0">911</p0> 
- <script>
- function er4 () {
- var a = 'x';
- b = 'y';
- n = document.getElementById('i0').value;
-for (var i = 3; i <= n; i++) {
-var c = a + b;
-a = b;
-b = c;
-}
-  document.getElementById('p0').innerHTML = b;
+<p0 id="p1">Муки ИРЫ</p0>
+<script>
+ function e3 (){
+ document.getElementById('p1').innerHTML =""
+  var n;
+  var taras=0;
+  n = document.getElementById('i1').value;
+n = n * n;
+taras= Math.pow(2,n);
+  document.getElementById('p1').innerHTML = taras - 1;
  }
-
 
 
 </script>
 
+<br>
+<br>
 
+
+<br>
+<input value="" id="i1" type="text">
+<br>
+<br>
+<a href="#on" class="button15" onclick="e3()" >Array</a>
+<br>
+
+<p0 id="p2">Муки ИРЫ</p0>
+<script>
+ function e4 (){
+       document.getElementById('p2').innerHTML =""
+       var n;
+         var a = "y";
+    b = "x";
+    n = document.getElementById('i2').value;
+  for (var i = 3; i <= n; i++) {
+    var c = a + b;
+    a = b;
+    b = c;
+  }
+  document.getElementById('p2').innerHTML = b
+ }
+
+
+</script>
 
 <br>
 <br>
 
 
 <br>
-<input value="" id="i0" type="text">
-<br> 
+<input value="" id="i2" type="text">
+<br>
+<br>
+<a href="#on" class="button15" onclick="e4()" >завдання фібоначчі</a>
+<br>
+<p0 id="p3">Муки ИРЫ</p0>
+<script>
+ function e5 (){
+       document.getElementById('p3').innerHTML =""
+       var R;
+       var a;
+    R = document.getElementById('i3').value;
+    a = document.getElementById('i4').value;
+    var S = (3.14 * R * R * a) / 360 * (3.14/ 180);
+    var m = Math.pow(10,4);
+    var b = Math.round(S*m)/m;
+  document.getElementById('p3').innerHTML = b;
+ }
 
 
+</script>
 
 <br>
 <br>
-<a href="#on" class="button15" onclick="er4()" >завдання фібоначчі</a>
+
 
 <br>
+<input value="" id="i3" type="text">
+<br>
+<input value="" id="i4" type="text">
+<br>
+<br>
+<a href="#on" class="button15" onclick="e5()" >Array</a>
+
+
 
 
 </body>
